@@ -1,0 +1,16 @@
+# Ignore paths that contain user-generated content.
+web/files
+web/sites/*/files
+web/sites/*/private
+web/sites/*/services.local.yml
+web/sites/*/settings.local.php
+
+drupal/.editorconfig
+drupal/.gitattributes
+
+.idea
+.DS_Store
+
+# Ignore sql dumps.
+*.sql
+*.sql.gz
